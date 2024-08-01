@@ -1,0 +1,15 @@
+spring:
+  r2dbc:
+    first:
+      url: r2dbc:mariadb://localhost:3306/1
+      username: root
+      password: 1234
+
+    second:
+      url: r2dbc:mariadb://localhost:3306/2
+      username: root
+      password: 1234
+
+logging:
+  level:
+    org.springframework.r2dbc.core: debug
